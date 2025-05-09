@@ -1,1 +1,0 @@
-Created a furniture page directory and added into testfile.txt
