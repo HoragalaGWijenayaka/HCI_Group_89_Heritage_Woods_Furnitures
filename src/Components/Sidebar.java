@@ -1,9 +1,12 @@
 package Components;
 
+import Frames.*;
 import Frames.Staff.staffdetail;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Sidebar extends JPanel {
 
@@ -163,7 +166,7 @@ public class Sidebar extends JPanel {
         });
 
         logout.addActionListener(e -> {
-            int confirm = JOptionPane.showConfirmDialog(null, "Are you sure, you want to logout?", "Logout", JOptionPane.YES_NO_OPTION);
+            int confirm = JOptionPane.showConfirmDialog(null, "Are you sure you want to logout?", "Logout", JOptionPane.YES_NO_OPTION);
             if (confirm == JOptionPane.YES_OPTION) {
                 System.exit(0); // Or redirect to login page
             }
