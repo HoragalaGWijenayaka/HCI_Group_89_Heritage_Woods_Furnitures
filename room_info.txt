@@ -1,0 +1,11 @@
+Room Number: 1
+Room Size (WxHxD): 10x5x0
+Room Shape: Rectangle
+Floor Color: 102,102,102
+Left Wall Color: 153,255,0
+Front Wall Color: 0,204,255
+Right Wall Color: 204,0,204
+Furniture type: Desk, Position: java.awt.Point[x=530,y=239]
+Furniture type: Chair, Position: java.awt.Point[x=531,y=124]
+Furniture type: Cupboard, Position: java.awt.Point[x=309,y=238]
+Furniture type: Bed, Position: java.awt.Point[x=313,y=127]
